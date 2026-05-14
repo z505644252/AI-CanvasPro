@@ -1,75 +1,42 @@
+```
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-user/
-user-data/
-output/
-data/
-release/
-logs/
-
-venv/
-
-.DS_Store
-Thumbs.db
-
-demo123/
-
+# Dependencies
 node_modules/
-npm-debug.log*
-dist/
-dist-obfuscated/
-.electron-runtime/
-playwright-report/
-test-results/
-.playwright/
 
-dev-helper.js
-.agent/
-.agentsrules/
-.trae/
-.dev
-/dev
-.codex/
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor
 .vscode/
-发布.md
-.tmp/
-.tmp
+.idea/
+*.swp
+*.swo
+*.tmp
 
-models/sam3_onnx/
+# Build/dist
+dist/
+build/
+target/
 
-compress-project.ps1
-project-compressed.zip
-AlCanvas*.zip
-*.tmp.zip
+# Coverage
+.coverage
+coverage/
+htmlcov/
 
-dreamina-login-qr.png
-快速启动-授权系统测试.bat
-双击运行.bat
-快速打开应用.bat
-
-# Ignore local advanced mode markers
-.Advanced
-.Advanced/
-
-# Ignore electron related files
-**/electron*
-*.electron*
-**/electron*/
-!electron/    
-!electron/main.js
-!electron/preload.cjs
-!electron/mediaTaskQueue.js
-!electron/diagnostics.js
-!electron/externalLinks.js
-!electron/updaterController.js
-!electron-builder.obfuscated.cjs
-
-# Ignore electron build outputs
-electron-build/
-**/electron-build/
-
-# Ignore electron runtime files
-.electron/    
-**/.electron/
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+install_manifest.txt
+```
